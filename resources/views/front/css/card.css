@@ -1,0 +1,28 @@
+/* Style pour les cards */
+.card {
+    margin-bottom: 90px; /* Espacement entre les cards */
+    border: none; /* Supprimer les bordures des cards */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Ajouter une ombre légère aux cards */
+}
+
+/* Style pour les images à l'intérieur des cards */
+.card img {
+    max-width: 100%; /* Assurez-vous que les images ne dépassent pas la largeur du card */
+    height: 200px; /* Ajustez automatiquement la hauteur en fonction de la largeur */
+}
+
+/* Style pour le contenu des cards */
+.card-body {
+    padding: 20px; /* Espacement interne du contenu du card */
+}
+
+/* Style pour les titres des cards */
+.card-title {
+    font-size: 1.5rem; /* Taille de police du titre */
+    font-weight: bold; /* Gras */
+}
+
+/* Style pour le texte des cards */
+.card-text {
+    font-size: 1rem; /* Taille de police du texte */
+}
